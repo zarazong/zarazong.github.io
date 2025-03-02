@@ -1,7 +1,7 @@
 ## Journal
 
 To-do:
-* update stuff :D
+* navbar/footer templating using js
   
 March 1 | project started
 * figured out how to start with GitHub Pages
