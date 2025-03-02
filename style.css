@@ -1,9 +1,92 @@
-body{
-    color: #444;
-    background-color: #EEE;
-    margin: 40px auto;
+body {
+    margin: 70px auto;
     max-width: 650px;
     line-height: 1.6em;
     font-size: 18px;
     padding: 0;
 }
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+main, .socials, footer {
+    margin: 30px 0;
+}
+
+/* navigation bar */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* socials */
+.socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ----------- COLORS ----------- */
+body {
+    color: #444;
+    background-color: #EEE;
+}
+
+nav a {
+    color: #666;
+}
+nav a:hover {
+    color: #333; 
+}
+
+.socials {
+    color: #888;
+}
+.socials a:hover {
+    color: #555;
+}
+
+footer {
+    color: #aaa;
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ccc;
+        background-color: #222;
+    }
+
+    nav a {
+        color: #aaa; 
+    }
+
+    nav a:hover {
+        color: #ccc; 
+    }
+
+    footer {
+        color: #999; 
+    }
+
+    footer a:hover {
+        color: #aaa; 
+    }
+}
+*/
