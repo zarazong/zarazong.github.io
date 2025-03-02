@@ -1,9 +1,10 @@
 body {
     margin: 70px auto;
     max-width: 650px;
-    line-height: 1.6em;
-    font-size: 18px;
-    padding: 0;
+    line-height: 1.8;
+    font-size: 16px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 0 50px;
 }
 
 footer {
