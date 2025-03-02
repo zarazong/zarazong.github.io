@@ -16,7 +16,7 @@ main, .socials, footer {
     margin: 30px 0;
 }
 
-/* navigation bar */
+/* ----------- NAVBAR ----------- */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -31,7 +31,7 @@ nav a {
     text-decoration: none;
 }
 
-/* socials */
+/* ----------- SOCIALS ----------- */
 .socials ul {
     list-style-type: none;
     padding: 0;
